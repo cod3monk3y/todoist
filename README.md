@@ -43,8 +43,8 @@ I made no attempt to convert the repetitions. Instead I add a note and tag the t
 
 Completed Tasks
 ===============
-The script does *not* import completed tasks. I found this incredibly cumbersome. If you re-enable the import of completed tasks, they will be tagged as @__import_completed
+The script does *not* import completed tasks. I found this incredibly cumbersome. If you re-enable the import of completed tasks (by setting INCLUDE_COMPLETED = TRUE at the top of the file), all completed tasks will be tagged as @__import_completed
 
 Task Limits
 ===========
-Todoist has an import limit of around 120 tasks. This script will split projects so that there are a maximum of 120 tasks per project.
+Todoist has an import limit of around 120 tasks. This script will split projects so that there are a maximum of 120 tasks per project. This limit can be changed by modifying the TODOIST_TASK_LIMIT variable at the top of the file.
